@@ -1,0 +1,78 @@
+div{
+    box-sizing: border-box;
+}
+.frm{
+    width: 500px;
+    padding: 15px;
+    box-shadow: 1px 1px 4px 0 dimgray;
+    overflow: hidden;
+    border-radius: 4px;
+    margin:auto;
+}
+label{
+    width: 100%;
+    float: left;
+}
+.frm-control{
+    width: 100%;
+    float: left;
+    padding: 5px;
+    border-radius: 4px;
+    border: 1px solid #333;
+    margin-bottom: 8px;
+    box-sizing: border-box;
+}
+textarea{
+    height: 60px;
+}
+.btn-post{
+    float: right;
+    padding: 8px 15px;
+    background-color: cornflowerblue;
+    color: white;
+    cursor: pointer;
+    border-radius: 4px;
+    box-shadow: 1px 1px 3px 0 grey;
+}
+.btn-post:hover{
+    opacity: 0.9;
+}
+.img-box{
+    width: 100px;
+    height: 100px;
+    float: left;
+    border: 1px solid #ccc;
+    background: url(./img/bg.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.img-box input{
+    width: 100%;
+    height: 100%;
+    float: left;
+    opacity: 0;
+    cursor: pointer;
+}
+.loading{
+    width: 100%;
+    height: 100%;
+    background-image: url('img/Loading_icon.gif');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+table{
+    width: 100%;
+    border-collapse: collapse;
+    text-align: center;
+}
+table tr th{
+    padding: 7px;
+    border: 1px solid #ccc;
+    background-color: #eee;
+}
+table tr td{
+    padding: 7px;
+    border: 1px solid #ccc;
+}
